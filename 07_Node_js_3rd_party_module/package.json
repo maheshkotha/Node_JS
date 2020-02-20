@@ -1,0 +1,15 @@
+{
+  "name": "07_node_js_3rd_party_module",
+  "version": "1.0.0",
+  "description": "NPM modules",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mahesh",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0"
+  }
+}

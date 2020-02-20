@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NodeJs application</title>
+<!--    <link rel="stylesheet" type="text/css" href="style.css">-->
+
+</head>
+<style>
+    h1 {
+        text-align: center;
+    }
+    nav {
+        text-align: center;
+        background-color: #f04;
+    }
+    a {
+        display: inline-block;
+        padding: 10px 15px;
+        text-decoration: none;
+        color: #fff;
+        margin: 0 50px;
+        font-size: 20px;
+    }
+
+    a:hover {
+        background-color: blueviolet;
+        color: #fff;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 200px);
+        grid-gap: 20px;
+    }
+
+    .grid>div {
+        height: 400px;
+
+    }
+    .col-one {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        background: green;
+        grid-gap: 10px;
+    }
+
+    .col-one > div {
+        background: #333;
+        width: 100%;
+    }
+    .col-two {
+        background: #ff0044;
+    }
+    .col-three {
+        background: blueviolet;
+    }
+</style>
+<body>
+<h1>Node Js Application</h1>
+<nav>
+    <a href="/">Home</a>
+    <a href="/service">service</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contacts</a>
+</nav>
+<h1>Home</h1>
+
+<div class="grid">
+    <div class="col-one">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="col-two"></div>
+    <div class="col-three"></div>
+</div>
+
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
