@@ -8,6 +8,10 @@ app.get('/', (req, res) => {
     res.send("Hello NODE");
 });
 
+app.get('/login', (req, res) => {
+    res.send("You are visiting login route");
+});
+
 app.get('/logout', (req, res) => {
     res.send("Your are loged out");
 });
